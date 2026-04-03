@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS phrases (
+    id SERIAL PRIMARY KEY,
+    phrase VARCHAR(255) NOT NULL,
+    genre VARCHAR(100)
+);
